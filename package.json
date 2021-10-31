@@ -3,7 +3,7 @@
   "private": false,
   "main": "dist/chessground.min.js",
   "types": "dist/chessground.d.ts",
-  "version": "8.1.7",
+  "version": "8.1.7+maple",
   "description": "lichess.org chess ui",
   "type": "module",
   "module": "chessground.js",
