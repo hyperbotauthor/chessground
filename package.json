@@ -1,5 +1,8 @@
 {
-  "name": "chessground",
+  "name": "@publishvue/chessground",
+  "private": false,
+  "main": "dist/chessground.min.js",
+  "types": "dist/chessground.d.ts",
   "version": "8.1.7",
   "description": "lichess.org chess ui",
   "type": "module",
@@ -7,13 +10,13 @@
   "typings": "chessground.d.ts",
   "dependencies": {},
   "devDependencies": {
-    "@rollup/plugin-typescript": "^8",
     "@typescript-eslint/eslint-plugin": "^4",
     "@typescript-eslint/parser": "^4",
     "eslint": "^7",
     "prettier": "^2",
     "rollup": "^2",
     "rollup-plugin-terser": "^7",
+    "rollup-plugin-typescript2": "^0.30.0",
     "tslib": "^2",
     "typescript": "^4.3"
   },

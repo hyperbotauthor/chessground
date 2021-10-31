@@ -1,4 +1,4 @@
-import typescript from '@rollup/plugin-typescript';
+import typescript from 'rollup-plugin-typescript2';
 import { terser } from 'rollup-plugin-terser';
 
 export default {
@@ -6,12 +6,12 @@ export default {
   output: [
     {
       file: 'dist/chessground.js',
-      format: 'iife',
+      format: 'umd',
       name: 'Chessground',
     },
     {
       file: 'dist/chessground.min.js',
-      format: 'iife',
+      format: 'umd',
       name: 'Chessground',
       plugins: [
         terser(),

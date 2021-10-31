@@ -2,6 +2,7 @@
   "include": ["src/*.ts"],
   "exclude": [],
   "compilerOptions": {
+    "declaration": true,
     "noEmitOnError": false,
     "strict": true,
     "noUnusedLocals": true,
